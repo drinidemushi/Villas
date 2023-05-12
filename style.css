@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*part1*/
+.header{
+    background-color: rgb(23, 23, 23);
+}
+.hamlet{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+/*part2*/
+.rose{
+    margin-top: 4%;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.txt-river{
+    text-align: center;
+    color: grey;
+    font-family: sans-serif;
+}
+/*Part3*/
+.image{
+    background-image: url("images/villas1.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.cnt{
+    width: 32%;
+    height: 30%;
+    background-color: rosybrown;
+    text-align: center;
+    margin-top: 85%;
+    margin-bottom: 15%;
+    margin-left: 40%; 
+}
+.button-view{
+    background-color: rosybrown;
+    color: white;
+    padding: 2px 2px 2px 2px;
+}
+/*part4*/
+.sr{
+    background-color: rgb(23, 23, 23);
+}
+.txt-4{
+    color: antiquewhite;
+    padding-top: 2%;
+    padding-left: 7%;
+    
+}
+.button-serch{
+    width: 44%;
+    height: 50%;
+    margin-top: 2%;
+    background-color: rosybrown;
+}
+/*part5*/
+.text5{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.text5-1{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    font-weight: bold;
+}
+.part5{
+    background-color:rosybrown; ;
+}
+.halmet{
+    display: flex;
+    justify-content: center;
+}
+/*about*/
+.ab{
+    margin-top: 2%;
+    background-color:rosybrown ;
+}
+.text-about{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.lorem_about{
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.lorem_about1{
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 10%;
+}
+.image_about{
+    
+    width: 100%;
+}
+/*contact*/
+.lorem_contact{
+    text-align: center;
+    margin-bottom: 4%;
+    font-family: "Poppins";
+  }
+  .con{
+    text-align: center;
+    color: gray;
+    font-family: "Poppins";
+  }
+  .con1{
+    text-align: center;
+    font-family: "Poppins";
+  }
+  .border_con{
+    border: 1px solid;
+    padding: 10px;
+  }
+
+  .border_con1{
+    border: 1px  solid;
+    padding: 10px;
+    height: 115px;
+  }
+  /*Purchses*/
+  .btn-payment{
+    background-color: black;
+    width: 100%;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5px 5px 5px 5px;
+}
+@media only screen and (max-width: 1555px) {
+    .cnt {
+        width: 32%;
+        height: 33%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 85%;
+        margin-bottom: 4%;
+        margin-left: 40%;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .cnt {
+        width: 32%;
+        height: 35%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 85%;
+        margin-bottom: 4%;
+        margin-left: 40%;
+    }
+}
+@media only screen and (max-width: 1318px) {
+    .cnt {
+        width: 32%;
+        height: 37%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 85%;
+        margin-bottom: 4%;
+        margin-left: 40%;
+    }
+}
+
+
+@media only screen and (max-width: 1193px) {
+    .cnt {
+        width: 32%;
+        height: 39%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 85%;
+        margin-bottom: 4%;
+        margin-left: 40%;
+    }
+}
+@media only screen and (max-width: 1186px) {
+    .cnt {
+        width: 32%;
+        height: 41%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 85%;
+        margin-bottom: 4%;
+        margin-left: 40%;
+    }
+}
+@media only screen and (max-width: 1096px) {
+    .cnt {
+        width: 32%;
+        height: 43%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 85%;
+        margin-bottom: 4%;
+        margin-left: 40%;
+    }
+}
+@media only screen and (max-width: 1021px) {
+    .cnt {
+        width: 32%;
+        height: 45%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 85%;
+        margin-bottom: 4%;
+        margin-left: 40%;
+    }
+}
+@media only screen and (max-width: 947px) {
+    .cnt {
+        width: 32%;
+        height: 46%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 85%;
+        margin-bottom: 4%;
+        margin-left: 40%;
+    }
+
+}
+@media only screen and (max-width: 914px) {
+    .cnt {
+        width: 32%;
+        height: 47%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 85%;
+        margin-bottom: 4%;
+        margin-left: 40%;
+    }
+
+}
+@media only screen and (max-width: 887px) {
+    .cnt {
+        width: 32%;
+        height: 49%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 85%;
+        margin-bottom: 4%;
+        margin-left: 40%;
+    }
+}
+@media only screen and (max-width: 826px) {
+    .cnt {
+        width: 37%;
+        height: 50%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 85%;
+        margin-bottom: 4%;
+        margin-left: 40%;
+    }
+}
+@media only screen and (max-width: 786px) {
+    .cnt {
+        width: 34%;
+        height: 51%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 85%;
+        margin-bottom: 4%;
+        margin-left: 40%;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .cnt {
+        width: 41%;
+        height: 51%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 85%;
+        margin-bottom: 4%;
+        margin-left: 40%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    
+    .cnt {
+        width: 33%;
+        height: 55%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 35%;
+        margin-bottom: 4%;
+        margin-left: 49%;
+    }
+    .button-serch {
+        width: 24%;
+        height: 73%;
+        margin-top: 2%;
+        background-color: rosybrown;
+    } 
+    
+}
+@media only screen and (max-width: 669px) {
+    .cnt {
+        width: 33%;
+        height: 58%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 35%;
+        margin-bottom: 4%;
+        margin-left: 49%;
+    }
+}
+@media only screen and (max-width: 594px) {
+    .cnt {
+        width: 33%;
+        height: 61%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 35%;
+        margin-bottom: 4%;
+        margin-left: 49%;
+    }
+}
+@media only screen and (max-width: 570px) {
+    .cnt {
+        width: 37%;
+        height: 62%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 35%;
+        margin-bottom: 4%;
+        margin-left: 49%;
+    }
+}
+@media only screen and (max-width: 519px) {
+    .cnt {
+        width: 35%;
+        height: 66%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 35%;
+        margin-bottom: 4%;
+        margin-left: 49%;
+    }
+}
+@media only screen and (max-width: 459px) {
+    .cnt {
+        width: 35%;
+        height: 68%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 35%;
+        margin-bottom: 4%;
+        margin-left: 49%;
+    }
+}
+@media only screen and (max-width: 423px) {
+.cnt {
+    width: 35%;
+    height: 70%;
+    background-color: rosybrown;
+    text-align: center;
+    margin-top: 35%;
+    margin-bottom: 4%;
+    margin-left: 49%;
+}
+}
+@media only screen and (max-width: 390px) {
+    .txt-cnt{
+        font-size: 12px;
+    }
+    .button-view {
+        background-color: rosybrown;
+        color: white;
+        padding: 2px 2px 2px 2px;
+        font-size: 12px;
+    }
+    .cnt {
+        width: 35%;
+        height: 70%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 35%;
+        margin-bottom: 4%;
+        margin-left: 49%;
+    }
+}
+@media only screen and (max-width: 369px) {
+    .cnt {
+        width: 39%;
+        height: 70%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 35%;
+        margin-bottom: 4%;
+        margin-left: 49%;
+    }
+    .usa{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 341px) {
+    .cnt {
+        width: 39%;
+        height: 73%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 35%;
+        margin-bottom: 4%;
+        margin-left: 49%;
+    }
+}
+@media only screen and (max-width: 281px) {
+    
+    
+    .cnt {
+        width: 42%;
+        height: 77%;
+        background-color: rosybrown;
+        text-align: center;
+        margin-top: 35%;
+        margin-bottom: 4%;
+        margin-left: 49%;
+    }
+    .button-serch {
+    width: 24%;
+    height: 82%;
+    margin-top: 2%;
+    background-color: rosybrown;
+}
+.text5-1{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4px;
+    font-weight: bold;
+}
+}
